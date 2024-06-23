@@ -17,7 +17,7 @@ const QuizTaker = ({ quiz, saveProgress }) => {
       }
     });
     setScore(correctAnswers);
-    saveProgress(null); // clear progress on submission
+    saveProgress(null);
   };
 
   useEffect(() => {

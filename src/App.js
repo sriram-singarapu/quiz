@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import AdminPanel from "./AdminPanel";
 import QuizTaker from "./QuizTaker";
 import NavBar from "./NavBar";
-import "./App.css"; // Ensure you import your CSS file here
+import "./App.css";
 
 const App = () => {
   const [quizzes, setQuizzes] = useState([]);
